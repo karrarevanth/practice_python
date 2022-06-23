@@ -1,0 +1,80 @@
+﻿* Python was developed by Guido van Rossum & released on Feb 20, 1991.
+
+
+
+
+1. What is python ? What are the benefits of using python?
+
+
+Ans. Python is a high-level, Interpreted, general-purpose programming language. Being a general purpose language, It can be used to build almost any type of application with the right tools and libraries. Python supports objects, modules, threads, exception-handling & automatic memory management.
+
+
+Benefits : Completely open-source, supports third-party packages and encourages code reuse.
+
+
+
+
+2. What is a dynamically typed language ? 
+
+
+Ans.  In a strongly typed language, such as python, “1” + 2 will result in a type error but in a weakly typed language, such as javascript, will simply output 12 as a result.
+
+
+* Static - data types are checked before execution
+* Dynamic - data types are checked during execution
+
+
+SInce python is an interpreted language, it executes each statement line by line and thus type-checking is done during execution. Hence python is a dynamically typed language.
+
+
+
+
+3. What is an Interpreted Language ? 
+
+
+Ans. An interpreted language executes its statements line by line.
+
+
+Examples : Python, Javascript, Ruby PHP and R are the prime examples for an interpreted language.
+
+
+
+
+4. What is PEP 8 ? 
+
+
+Ans. PEP stands for Python Enhancement Proposal. A PEP is an official design document providing information to the python community. Apparently contributing to the Python open-source community requires you to follow the guidelines sincerely and strictly.
+
+
+
+
+5. What are lists and tuples ? 
+
+
+Ans. Lists and Tuples are sequence data types that can store collection of objects in python
+
+
+6.  What are the common built-in data types in python ? 
+
+
+Ans. There are several built-in data types in python. They are :
+
+
+1. None type - None
+2. Numeric type - int, float, complex and bool
+3. Sequence type - lists, tuples and range 
+4. Text type - str
+5. Binary type - byte
+6. Mapping type - dict 
+7. Set type - supports add() and remove()
+
+
+      7.    What is pass in Python ? 
+
+
+Ans. The pass is a keyword. Generally used for filling up the empty block of code which may execute during the runtime but yet to be written.
+
+
+
+
+8.

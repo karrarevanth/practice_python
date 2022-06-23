@@ -1,0 +1,49 @@
+﻿#1 Data Types
+
+
+Attribute of data which tell the compiler or an interpreter how the programmer intends to use the data.
+
+
+Examples : int, float, bool, str, list, tuple, set, dict
+
+
+Text type : str
+
+
+Numeric type : int, float, complex
+
+
+Sequence type : list, tuple, range
+
+
+Mapping type : dict
+
+
+Boolean type : bool
+
+
+Binary type : bytes
+
+
+None type : NoneType
+
+
+Above data types are fundamental data types.
+
+
+#2 Custom data types : 
+
+
+Which can be created by our own like classes 
+
+
+Example : customCars etc.,
+
+
+#Specialized data types : 
+
+
+They are not build into python but they are special packages and modules that we can use from libraries. 
+
+
+Example : We can think of it as an extension that we can add to the language
