@@ -1,80 +1,116 @@
-﻿* Python was developed by Guido van Rossum & released on Feb 20, 1991.
+Python was developed by Guido van Rossum & released on Feb 20, 1991.
 
 
-
-
-1. What is python ? What are the benefits of using python?
-
+What is python ? What are the benefits of using python?
 
 Ans. Python is a high-level, Interpreted, general-purpose programming language. Being a general purpose language, It can be used to build almost any type of application with the right tools and libraries. Python supports objects, modules, threads, exception-handling & automatic memory management.
-
 
 Benefits : Completely open-source, supports third-party packages and encourages code reuse.
 
 
-
-
-2. What is a dynamically typed language ? 
-
+What is a dynamically typed language ? 
 
 Ans.  In a strongly typed language, such as python, “1” + 2 will result in a type error but in a weakly typed language, such as javascript, will simply output 12 as a result.
 
-
-* Static - data types are checked before execution
-* Dynamic - data types are checked during execution
-
+Static - data types are checked before execution
+Dynamic - data types are checked during execution
 
 SInce python is an interpreted language, it executes each statement line by line and thus type-checking is done during execution. Hence python is a dynamically typed language.
 
 
-
-
-3. What is an Interpreted Language ? 
-
+What is an Interpreted Language ? 
 
 Ans. An interpreted language executes its statements line by line.
-
 
 Examples : Python, Javascript, Ruby PHP and R are the prime examples for an interpreted language.
 
 
-
-
-4. What is PEP 8 ? 
-
+What is PEP 8 ? 
 
 Ans. PEP stands for Python Enhancement Proposal. A PEP is an official design document providing information to the python community. Apparently contributing to the Python open-source community requires you to follow the guidelines sincerely and strictly.
 
 
-
-
-5. What are lists and tuples ? 
-
+What are lists and tuples ? 
 
 Ans. Lists and Tuples are sequence data types that can store collection of objects in python
 
-
-6.  What are the common built-in data types in python ? 
-
+ What are the common built-in data types in python ? 
 
 Ans. There are several built-in data types in python. They are :
 
-
-1. None type - None
-2. Numeric type - int, float, complex and bool
-3. Sequence type - lists, tuples and range 
-4. Text type - str
-5. Binary type - byte
-6. Mapping type - dict 
-7. Set type - supports add() and remove()
-
+None type - None
+Numeric type - int, float, complex and bool
+Sequence type - lists, tuples and range 
+Text type - str
+Binary type - byte
+Mapping type - dict 
+Set type - supports add() and remove()
 
       7.    What is pass in Python ? 
-
 
 Ans. The pass is a keyword. Generally used for filling up the empty block of code which may execute during the runtime but yet to be written.
 
 
+What are modules and packages in python ?
+
+Ans.  Python modules and python packages have two different mechanisms that allow modular programming. Modularizing has several advantages : 
+
+Simplicity 
+Reusability
+Maintainability 
+Scoping
+
+Module : Module is simply a file having .py extension and having set of functions, class and variable defined and They can be imported and initialized once using import statement
+
+Package : As modules helps avoiding clashes between global variable names. In similar manner, Packages helps avoiding clashes between modules names.
+ 
+
+What is scope in python ? 
+
+Ans.  Every object in python functions within a scope. A scope is a block of code where object in python remains relevant. 
+
+Local scope : local objects available in the current function
+Global scope : objects available throughout the code execution
+Module-level scope : global objects of the current module is accessible in the program.
+
+ What are global, private and protected attributes in python ?
+
+Ans. Attributes are divided into following :
+Global attributes are public attributes, 
+private attributes are attributes which have double underscore prefixed to their identifier eg. __abc. They cannot be accessed or modified directly from outside directly and 
+protected attributes are the attributes which have double underscore prefixed to their identifier eg: __def. They can be accessed or modified from outside the class.
+
+What is the use of self in python ? 
+
+Ans. Self keyword is used to access attributes and methods of the class in python. Self is used to represent instance of the class
+
+What is __init__ ?
+
+Ans. __init__ is a contructor in python. Which is automatically called to allocated memory when a new object/instance is created.
+
+What is break, continue and pass in python ? 
+
+Ans. They are :
+break : The break statement terminates the loop immediately.
+continue : continue terminates the current iteration of the statement and skips the rest of the code in the iteration and control flows to the next iteration of the loop
+pass : pass is the keyword which is used to fill the empty block of code 
+
+What are unit tests in python ?
+
+Ans. Testing different components of software separately.
+
+What is slicing in python ? 
+
+Ans. Slicing means [start : stop : step]
+
+start is the starting index where the slicing of tuple of list begins
+stop is the ending index
+step is the number of stes to jump
+
+Note : default value of start is 0 and stop is number of items and step is 1.
+Slicing can be done on strings, tuples, lists and arrays.
+
+Eg: numbers = [1,2,3,4,5,6,7,8,9,10]
+print(numbers[1])
 
 
-8.
